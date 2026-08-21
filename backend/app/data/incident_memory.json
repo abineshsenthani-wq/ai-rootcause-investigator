@@ -1,0 +1,31 @@
+[
+  {
+    "id": "inc_2025_01",
+    "dataset_name": "Sales Q2 2025",
+    "metric": "revenue",
+    "percentage_change": -24.1,
+    "summary": "Revenue dropped 24% due to West region logistics delays and delivery carrier stockouts.",
+    "primary_driver": "delivery_days",
+    "facts": [
+      "West region dropped -41.8%",
+      "Delivery days spiked by +31%"
+    ],
+    "recommendations": [
+      "Audit West fulfillment carrier SLA"
+    ]
+  },
+  {
+    "id": "inc_2025_02",
+    "dataset_name": "E-Commerce Black Friday",
+    "metric": "conversion_rate",
+    "percentage_change": -18.5,
+    "summary": "Conversion rate dropped 18.5% due to payment gateway checkout latency.",
+    "primary_driver": "checkout_latency_ms",
+    "facts": [
+      "Checkout latency increased from 400ms to 2800ms"
+    ],
+    "recommendations": [
+      "Scale payment gateway API concurrency"
+    ]
+  }
+]

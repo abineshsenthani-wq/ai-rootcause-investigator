@@ -1,0 +1,31 @@
+# Python
+backend/venv/
+backend/.env
+backend/.pytest_cache/
+backend/__pycache__/
+backend/app/**/__pycache__/
+backend/*.db
+backend/investigator.db
+backend/data/uploads/*
+!backend/data/uploads/.gitkeep
+backend/data/sample/*.csv
+!backend/data/sample/.gitkeep
+
+# Node / Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+frontend/.env.local
+frontend/.env.*.local
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+
+# Large data files
+data/sample_sales.csv
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
